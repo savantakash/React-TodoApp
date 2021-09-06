@@ -1,29 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live heroku Deployment](https://react-todo-app-aakash.herokuapp.com/)
+[Github](https://github.com/savantakash/React-TodoApp)
 
-## npx create-react-app [Application_name]
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 1 Getting React Set up (Recommended Method)
+# Prerequisites
+* Node >= 8.10
+* npm >= 5.6
+## 2 Step by Step instructions:
+* Download and install Node.js from here:(https://nodejs.org/en/download/).
+* This will enable the usage of node, npm and npx in the terminal/cmd/powershell.
+* Run npx create-react-app my-first-app
+* Run cd my-first-app
+* Run npm start
+## React should automatically launch the template app, in case it does not, go to https://localhost:3000/ on your browser to see the template React app.
 
 ### Deployment
-
-This section has moved here: https://github.com/mars/create-react-app-buildpack
+* Create new App in heroku
+* Connect to github
+* Select which repository to connect to heroku
+* In setting of heroku you have to paste build pack link as shown below:
+https://github.com/mars/create-react-app-buildpack
